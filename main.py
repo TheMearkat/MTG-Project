@@ -61,9 +61,5 @@ if matching_row:
 else:
     print("No matching card found in the CSV data.")
 
-# Print the results
-print(f"Random Card Name: {name}")
-print(f"Random Small Image URL: {small_image_url}")
-
-#markdown method to display image in jupyter notebook
+#Method to display image in jupyter notebook
 display(Image(url=small_image_url))
